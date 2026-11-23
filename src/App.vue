@@ -24,6 +24,7 @@ function reiniciar() {
 
 <template>
   <VistaInicio v-if="vista === 'inicio'" @iniciar="iniciarBatalla" />
+  
   <!-- TODO: VistaBatalla -->
   <!-- TODO: VistaGanador -->
 </template>
